@@ -21,7 +21,7 @@ Running
 
 Generate a point set of 16 points in 3 dimension in file `owenCascadedSobol_3D_16pts.dat` using `cascaded_sobol_init_tab.dat` as sobol generator matrices and with owen scrambling
 
-./cascadedSobol -d 3 -n 16 -i ../data/cascaded_sobol_init_tab.dat -o owenCascadedSobol_3D_16pts.dat -p
+      ./cascadedSobol -d 3 -n 16 -i ../data/cascaded_sobol_init_tab.dat -o owenCascadedSobol_3D_16pts.dat -p
 
 License
 =======
