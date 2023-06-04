@@ -2,6 +2,7 @@
 
 Cascaded Sobol' Sampling, Loïs Paulin, David Coeurjolly, Jean-Claude Iehl, Nicolas Bonneel, Alexander Keller, Victor Ostromoukhov, ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia), 40(6), pp. 274:1–274:13, December 2021.
 
+![](https://projet.liris.cnrs.fr/cascaded/teaser.png)
 
 
 Building
