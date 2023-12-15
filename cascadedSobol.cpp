@@ -33,6 +33,7 @@
 #include "CLI11.hpp"
 
 #include "Samplers/SobolGenerator1D.h"
+#include "Samplers/OwenScrambling.h"
 
 
 using namespace std;
