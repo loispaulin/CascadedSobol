@@ -39,12 +39,6 @@
 #include <sstream>
 #include <fstream>
 
-#include "OwenScrambling.h"
-
-#ifdef _MSC_VER 
-typedef unsigned int uint;
-#endif
-
 inline uint32_t ReverseBits(uint32_t n) {
     n = (n << 16) | (n >> 16);
     n = ((n & 0x00ff00ff) << 8) | ((n & 0xff00ff00) >> 8);
@@ -124,7 +118,7 @@ public:
     inline friend std::ostream& operator<<(std::ostream& out, const SobolGenerator1D& sobol){
 
         out << sobol.d << "\t" << sobol.s << "\t" << sobol.a  << "\t";
-        for (uint i = 0; i < sobol.s; ++i) {
+        for (uint32_t i = 0; i < sobol.s; ++i) {
             out << sobol.m[i] << " ";
         }
 

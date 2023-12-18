@@ -33,7 +33,7 @@
 #include "Random.h"
 
 //seed has to stay the same for a given dimention
-uint32_t OwenScrambling(uint32_t sobolPoint, uint32_t seed, const uint32_t owen_tree_depth) {
+inline uint32_t OwenScrambling(uint32_t sobolPoint, uint32_t seed, const uint32_t owen_tree_depth) {
 
     RNG scramble_rng;
 
